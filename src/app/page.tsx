@@ -1,5 +1,6 @@
-import { Button } from "@/components/ui/button";
+import PasswordInput from "@/components/PasswordInput";
 import { compileWelcomeTemplate, sendMail } from "@/lib/mail";
+import { Button } from "@nextui-org/react";
 
 export default function Home() {
   const send = async () => {
@@ -12,10 +13,10 @@ export default function Home() {
     });
   };
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-4">
-      <form>
-        <Button formAction={send}>test</Button>
-      </form>
+    <main className="p-24 gap-4 bg-black">
+      <div className="p-10 border rounded-md shadow-md m-10 bg-white">
+        <PasswordInput />
+      </div>
     </main>
   );
 }
