@@ -4,5 +4,14 @@
       "path": "."
     }
   ],
-  "settings": { "prettier.printWidth": 75, "editor.wordWrap": "on" }
+  "settings": {
+    "prettier.printWidth": 70,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontFamily": "Jetbrains Mono",
+    "terminal.integrated.fontWeightBold": "400",
+    "terminal.integrated.hideOnStartup": "always",
+    "terminal.integrated.splitCwd": "workspaceRoot"
+  }
 }
